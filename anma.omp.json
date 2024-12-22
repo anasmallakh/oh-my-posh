@@ -40,7 +40,7 @@
           "background": "#222222",
           "foreground": "#666666",
           "style": "plain",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} ",
           "type": "session"
         },
         {
@@ -51,7 +51,7 @@
             "style": "mixed"
           },
           "style": "plain",
-          "template": " {{ .Path }} ",
+          "template": " {{ .Folder }} ",
           "type": "path"
         },
         {
